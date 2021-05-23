@@ -1,0 +1,68 @@
+@font-face{
+    font-family: uber;
+    src: url(Uber.woff);
+}
+
+body{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-family: uber;
+    background-image: url(fundo.jpg) ;
+    background-size: 250px;
+
+}
+h1{
+    color: #fff;
+    margin-top: 80px;
+    text-shadow: 
+      -1px -1px 1px rgba(82, 252, 167, 0.836), 
+      2px 2px 2px #808080;
+}
+
+#input{
+    font-family: uber;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1.5px solid rgb(82, 252, 167);
+    outline: none;
+}
+
+
+.botao{
+    font-family: uber;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 7px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 2px solid rgb(0, 87, 43);
+    transition-duration: 0.5s;
+}
+.botao:hover{
+    border-color: rgb(82, 252, 167) ;
+}
+
+#txt{
+    margin-top: 60px;
+    color: rgb(82, 252, 167);
+    font-size: 20px;
+}
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   width: 100%;
+   color: #ffffff71;
+   text-align: center;
+   font-size: 100%;
+}
