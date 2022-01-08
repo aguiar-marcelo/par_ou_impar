@@ -4,7 +4,7 @@ var resto = undefined;
 
 function calcular(){
     n = document.getElementById('input').value //recebe o valor digitado
-    var numeros = /^[0-9.]+$/; //valores permitidos
+    var numeros = /^[0-9]+$/; //valores permitidos
 
     //valida o que foi digitado
     if(n.match(numeros)){
